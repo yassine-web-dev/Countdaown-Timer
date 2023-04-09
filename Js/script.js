@@ -52,13 +52,13 @@ function passedMilliseconds() {
 
 	  <span class="days">${days.toString().padStart(3, "0").charAt(0)}</span>
 	  <span class="days">${days.toString().padStart(2, "0").charAt(1)}</span>
-	  <span class="days">${':'}</span>
+	  <span class="colon">${':'}</span>
 	  <span class="hours">${hours.toString().padStart(2, "0").charAt(0)}</span>
 	  <span class="hours">${hours.toString().padStart(2, "0").charAt(1)}</span>
-	  <span class="days">${':'}</span>
+	  <span class="colon">${':'}</span>
 	  <span class="minutes">${minutes.toString().padStart(2, "0").charAt(0)}</span>
 	  <span class="minutes">${minutes.toString().padStart(2, "0").charAt(1)}</span>
-	  <span class="days">${':'}</span>
+	  <span class="colon">${':'}</span>
 	  <span class="seconds">${seconds.toString().padStart(2, "0").charAt(0)}</span>
 	  <span class="seconds">${seconds.toString().padStart(2, "0").charAt(1)}</span>
 
